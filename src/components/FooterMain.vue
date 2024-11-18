@@ -16,10 +16,10 @@ import { RouterLink } from 'vue-router'
         <RouterLink to="/about" class="hover:underline me-4 md:me-6">About</RouterLink>
         </li>
         <li>
-          <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+          <RouterLink to="/blog" class="hover:underline me-4 md:me-6">Blog</RouterLink>
         </li>
         <li>
-          <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+          <RouterLink to="/contact" class="hover:underline me-4 md:me-6">Contact</RouterLink>
         </li>
       </ul>
     </div>
